@@ -1,0 +1,27 @@
+
+/* Estilo base para o texto flutuante */
+.floating-text {
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  /* Animação para o efeito de flutuação */
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+  }
+  
+  /* Adicionando um delay diferente para cada letra */
+  .floating-text {
+    animation-delay: calc(0.1s * var(--i));
+  }
+  
+  /* Aplicando o delay dinamicamente para cada letra */
+  .floating-text span {
+    animation: float 3s ease-in-out infinite;
+    animation-delay: calc(0.1s * var(--i));
+  }
+  
