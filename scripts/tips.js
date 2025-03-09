@@ -7,10 +7,9 @@ const tooltips = [
     { alt: "Java", text: "Java: Linguagem de programação orientada a objetos multiplataforma" }
   ];
 
-  // Seleciona todos os contêineres de ícones
+  
   const iconContainers = document.querySelectorAll('.icon-container');
 
-  // Adiciona os tooltips
   iconContainers.forEach((container, index) => {
     const tooltip = document.createElement('span');
     tooltip.className = 'tooltip';

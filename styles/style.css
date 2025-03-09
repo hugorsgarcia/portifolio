@@ -134,8 +134,8 @@ body {
 
 .services-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 colunas de tamanho igual */
-  gap: 16px; /* Espaço entre os cards */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px; 
   padding: 16px;
   color: white;
 }
@@ -171,6 +171,7 @@ body {
 .contact {
   display: flex;
   align-items: center;
+  justify-content: center;
   text-decoration: none;
   border-radius: 8px;
   width: 100%;
